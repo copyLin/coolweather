@@ -1,4 +1,4 @@
-package com.example.linxl.coolweather;
+package com.example.linxl.coolweather.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;

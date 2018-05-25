@@ -10,7 +10,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -23,10 +22,9 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.example.linxl.coolweather.gson.Forecast;
 import com.example.linxl.coolweather.gson.Weather;
+import com.example.linxl.coolweather.service.AutoUpdateService;
 import com.example.linxl.coolweather.util.HttpUtil;
 import com.example.linxl.coolweather.util.Utility;
-
-import org.w3c.dom.Text;
 
 import java.io.IOException;
 
